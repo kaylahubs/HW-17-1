@@ -1,35 +1,3 @@
-#navigation{
-    background-color: rgb(219, 194, 51);
-}
-
-p{
-    background-color: lightblue;
-    padding: 10px;
-    display: block;
-}
-
-#p2{
-    background-color: lightcoral;
-}
-
-#p3{
-    background-color: orange;
-}
-
-#p4{
-    background-color: #a4a4a4;
-}
-
-.padding10{
-    padding: 20px;
-
-}
-
-.padding20{
-    padding: 30px;
-}
-
-.horizontalList{
-    display: inline;
-    background-color: orchid;
+.inlineblock{
+    display: inline-block;
 }
