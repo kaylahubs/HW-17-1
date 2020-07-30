@@ -1,3 +1,150 @@
-.inlineblock{
+.inline-block{
     display: inline-block;
+    background-color: #F4FAFA;
+    color: #707070;
+    text-align: center;
+    padding: 10px 30px;
+    margin-right: 5px;
+   /* margin: 5px 0 5px 5px; */ 
 }
+
+.nav-bar{
+    background-color: #F4FAFA;
+    padding: 5px;
+    position: relative;
+}
+
+#navContainer{
+    position: absolute;
+    top: 30px;
+    left: 150px;
+
+}
+
+.herobox{
+        position: relative;
+        display: inline-block;
+        width: 500px; 
+        height: 300;
+        top: 30%;
+        bottom: 70%;
+    }
+    .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;        
+        text-align: center;
+        top: 40%; /* Adjust this value to move the positioned div up and down */
+        background: rgba(0, 0, 0, 0.8);
+        font-family: Arial,sans-serif;
+        color: #fff;
+        width: 60%; /* Set the width of the positioned div */
+    }
+
+    .donate{
+        position: relative;
+        top: 500px;
+        margin: auto;
+        
+    }
+
+#heroBlurb{
+    text-align: center;
+    font-size: large;
+    color: #707070;
+    font-family: sans-serif;
+    float: inline-end;
+}
+
+.footerlogo{
+    position: absolute;
+    left: 35px;
+    top: 20px;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #F4FAFA;
+    color: #707070;
+    text-align: right;
+}
+
+.footersignup{
+    right: 70px;
+    top: 25px;
+    position: absolute;
+}
+
+.entryboxname{
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+    position: absolute;
+    right: 370px;
+    top: 90px;
+    fill: white;
+}
+
+.entryboxemail{
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+    position: absolute;
+    right: 200px; 
+    top: 90px;
+    fill: white;
+}
+ 
+.contactus{
+    width: 228px;
+    height: 150px;
+    background: transparent;
+    text-align: left;
+    position: absolute;
+    top: 155px;
+    left: 70px;
+    font-size: 15px;
+    
+}
+
+.findus{
+        width: 228px;
+        height: 10px;
+        background: transparent;
+        text-align: left;
+        position: absolute;
+        top: 150px;
+        left: 250px;
+}
+
+.signup{
+    position: absolute;
+    top: 95px;
+    right: 90px;
+}
+.connect{
+    position: absolute;
+    right: 200px; 
+    top: 150px;
+}
+
+.volunteer{
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+}
+
+.mediaicons{
+    position: absolute;
+    bottom: 90px;
+    right: 50px;
+    width=100px; 
+    height=50px;
+}
+
+
+
